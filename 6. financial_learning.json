@@ -1,0 +1,44 @@
+{
+  "component": "Financial Learning Center",
+  "topics": [
+    {
+      "name": "Inflation",
+      "explanation": "Inflation means prices generally increase over time, reducing the purchasing power of money.",
+      "example_required": true
+    },
+    {
+      "name": "Compounding",
+      "explanation": "Compounding means growth can build on previously accumulated amounts over time.",
+      "example_required": true,
+      "warning": "Examples are hypothetical and do not guarantee future returns."
+    },
+    {
+      "name": "SIP",
+      "explanation": "A Systematic Investment Plan allows an investor to invest a fixed amount at regular intervals. SIPs do not guarantee returns."
+    },
+    {
+      "name": "Mutual Funds",
+      "topics": [
+        "Equity funds",
+        "Debt funds",
+        "Hybrid funds",
+        "Diversification",
+        "Expense ratios",
+        "Market risk"
+      ]
+    },
+    {
+      "name": "Financial Risk",
+      "topics": [
+        "Risk versus return",
+        "Market volatility",
+        "Liquidity risk",
+        "Inflation risk",
+        "Credit risk",
+        "Concentration risk",
+        "Time horizon"
+      ]
+    }
+  ],
+  "instruction": "Explain financial concepts using simple language and practical examples. Do not recommend specific financial products."
+}
