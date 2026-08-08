@@ -1,0 +1,57 @@
+{
+  "component": "Financial Resilience Planner",
+  "emergency_fund": {
+    "scenarios": [
+      {
+        "months": 3,
+        "label": "3-month emergency buffer"
+      },
+      {
+        "months": 6,
+        "label": "6-month emergency buffer"
+      },
+      {
+        "months": 9,
+        "label": "9-month emergency buffer"
+      },
+      {
+        "months": 12,
+        "label": "12-month emergency buffer"
+      }
+    ],
+    "formula": "essential_expenses * selected_months",
+    "outputs": [
+      "Current emergency savings",
+      "Target emergency savings",
+      "Savings gap",
+      "Possible monthly contribution",
+      "Estimated time to reach target"
+    ]
+  },
+  "debt": {
+    "inputs": [
+      "Debt type",
+      "Outstanding balance",
+      "Interest rate",
+      "Monthly payment",
+      "Remaining duration"
+    ],
+    "educational_strategies": [
+      "Highest-interest-first",
+      "Smallest-balance-first",
+      "Maintain emergency savings while reducing debt"
+    ],
+    "instruction": "Explain advantages and trade-offs without claiming that one strategy is universally best."
+  },
+  "protection": {
+    "areas": [
+      "Health insurance",
+      "Life insurance",
+      "Disability or income protection",
+      "Emergency savings",
+      "Dependents' financial needs"
+    ],
+    "output_label": "Potential protection gap to explore",
+    "instruction": "Identify areas for further investigation. Do not recommend specific insurance products."
+  }
+}
