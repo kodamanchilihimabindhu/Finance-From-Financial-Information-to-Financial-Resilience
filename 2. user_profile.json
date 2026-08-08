@@ -1,0 +1,92 @@
+{
+  "component": "User Financial Profile",
+  "description": "Collect basic financial information to understand the user's financial situation.",
+  "questions": [
+    {
+      "id": "age_range",
+      "question": "What is your age range?",
+      "type": "select",
+      "options": [
+        "18-25",
+        "26-35",
+        "36-45",
+        "46-55",
+        "56-65",
+        "65+"
+      ]
+    },
+    {
+      "id": "financial_situation",
+      "question": "Which situation best describes you?",
+      "type": "select",
+      "options": [
+        "First-time salaried employee",
+        "Irregular or informal income",
+        "Returning professional",
+        "Single mother",
+        "Micro-entrepreneur",
+        "Caregiver",
+        "Approaching retirement",
+        "Other"
+      ]
+    },
+    {
+      "id": "monthly_income",
+      "question": "What is your approximate monthly income in INR?",
+      "type": "number"
+    },
+    {
+      "id": "essential_expenses",
+      "question": "What are your approximate essential monthly expenses?",
+      "type": "number"
+    },
+    {
+      "id": "variable_expenses",
+      "question": "What are your approximate flexible monthly expenses?",
+      "type": "number"
+    },
+    {
+      "id": "debt_payment",
+      "question": "How much do you pay monthly toward loans or debt?",
+      "type": "number"
+    },
+    {
+      "id": "current_savings",
+      "question": "Approximately how much do you currently have in savings?",
+      "type": "number"
+    },
+    {
+      "id": "emergency_savings",
+      "question": "How much of your savings is available for emergencies?",
+      "type": "number"
+    },
+    {
+      "id": "dependents",
+      "question": "How many people financially depend on you?",
+      "type": "number"
+    },
+    {
+      "id": "income_stability",
+      "question": "How stable is your income?",
+      "type": "select",
+      "options": [
+        "Very stable",
+        "Mostly stable",
+        "Somewhat irregular",
+        "Highly irregular",
+        "Seasonal"
+      ]
+    },
+    {
+      "id": "financial_goals",
+      "question": "What are your top financial goals?",
+      "type": "text"
+    },
+    {
+      "id": "financial_concern",
+      "question": "What is your biggest financial concern right now?",
+      "type": "text"
+    }
+  ],
+  "privacy_warning": "Never request passwords, OTPs, PINs, bank account numbers, card numbers, Aadhaar numbers or PAN numbers."
+}
