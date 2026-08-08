@@ -1,0 +1,59 @@
+{
+  "component": "Financial Resilience Score and Action Plan",
+  "resilience_score": {
+    "maximum": 100,
+    "factors": [
+      "Emergency savings",
+      "Cash-flow stability",
+      "Debt burden",
+      "Goal clarity",
+      "Protection awareness",
+      "Savings consistency",
+      "Financial obligations",
+      "Fraud awareness"
+    ],
+    "output": [
+      "Educational resilience score",
+      "Financial strengths",
+      "Top three improvement areas"
+    ],
+    "disclaimer": "This score is an educational indicator. It is not a credit score, professional financial rating or regulated assessment."
+  },
+  "thirty_day_plan": {
+    "week_1": [
+      "Track all expenses",
+      "List debts",
+      "Identify essential monthly expenses"
+    ],
+    "week_2": [
+      "Set an emergency-fund target",
+      "Review existing financial protection"
+    ],
+    "week_3": [
+      "Choose one priority financial goal",
+      "Set a realistic savings amount"
+    ],
+    "week_4": [
+      "Review progress",
+      "Identify one financial risk",
+      "Update the financial plan"
+    ]
+  },
+  "monthly_review": [
+    "Planned income",
+    "Actual income",
+    "Essential expenses",
+    "Flexible expenses",
+    "Unexpected expenses",
+    "Emergency savings",
+    "Goal savings",
+    "Debt payments",
+    "Protection review",
+    "Goal progress",
+    "What went well?",
+    "What changed?",
+    "What financial risk appeared?",
+    "What will I do differently next month?"
+  ],
+  "final_message": "This tool provides financial education and assumption-based decision support. It does not provide guaranteed returns or personalized regulated investment advice."
+}
