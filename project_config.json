@@ -1,0 +1,23 @@
+{
+  "project_name": "Finance: From Financial Information to Financial Resilience",
+  "version": "1.0",
+  "country": "India",
+  "target_audience": "Women",
+  "purpose": "Financial education, decision learning and financial resilience planning",
+  "tagline": "Understand your money. Compare your choices. Build your resilience.",
+  "core_journey": [
+    "User Profile",
+    "Financial Snapshot",
+    "Goal Discovery",
+    "Emergency Fund Planning",
+    "Debt Analysis",
+    "Protection Gap",
+    "Financial Learning",
+    "Scenario Comparison",
+    "Fraud Awareness",
+    "Financial Resilience Score",
+    "30-Day Action Plan",
+    "Monthly Review"
+  ],
+  "advice_boundary": "The application provides financial education and assumption-based decision support. It does not provide guaranteed returns or personalized regulated investment advice."
+}
