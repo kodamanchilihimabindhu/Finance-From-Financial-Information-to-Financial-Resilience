@@ -1,0 +1,44 @@
+{
+  "component": "Financial Health Dashboard",
+  "purpose": "Convert user inputs into an easy-to-understand financial snapshot.",
+  "calculations": {
+    "monthly_surplus": {
+      "formula": "monthly_income - essential_expenses - variable_expenses - debt_payment"
+    },
+    "debt_burden_percentage": {
+      "formula": "(debt_payment / monthly_income) * 100"
+    },
+    "emergency_fund_6_months": {
+      "formula": "essential_expenses * 6"
+    },
+    "emergency_fund_3_months": {
+      "formula": "essential_expenses * 3"
+    },
+    "emergency_fund_9_months": {
+      "formula": "essential_expenses * 9"
+    },
+    "emergency_fund_12_months": {
+      "formula": "essential_expenses * 12"
+    }
+  },
+  "output": {
+    "sections": [
+      "Monthly Income",
+      "Essential Expenses",
+      "Flexible Expenses",
+      "Debt Obligations",
+      "Monthly Surplus or Deficit",
+      "Current Savings",
+      "Emergency Savings",
+      "Emergency Fund Gap",
+      "Debt Burden",
+      "Key Financial Risks"
+    ]
+  },
+  "status": {
+    "green": "Relatively healthy",
+    "yellow": "Needs attention",
+    "red": "High priority"
+  },
+  "instruction": "Explain why each status is assigned. Make clear that this is an educational assessment, not professional financial advice."
+}
