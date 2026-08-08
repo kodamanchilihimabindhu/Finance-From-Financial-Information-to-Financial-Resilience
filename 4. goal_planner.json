@@ -1,0 +1,37 @@
+{
+  "component": "Financial Goal Discovery and Prioritization",
+  "goal_categories": [
+    "Emergency Fund",
+    "Debt Reduction",
+    "Healthcare",
+    "Education",
+    "Housing",
+    "Children",
+    "Business",
+    "Retirement",
+    "Family Support",
+    "Financial Independence"
+  ],
+  "time_horizons": {
+    "immediate": "0-1 year",
+    "short_term": "1-3 years",
+    "medium_term": "3-7 years",
+    "long_term": "7+ years"
+  },
+  "goal_fields": [
+    "Goal name",
+    "Target amount",
+    "Current amount",
+    "Remaining amount",
+    "Target date",
+    "Priority",
+    "Time horizon"
+  ],
+  "priority_levels": [
+    "Critical",
+    "High",
+    "Medium",
+    "Low"
+  ],
+  "instruction": "Help the user identify and prioritize goals based on urgency, importance, financial security and time horizon. Do not dictate which goal the user must choose."
+}
