@@ -1,0 +1,48 @@
+{
+  "component": "Scenario and Fraud Awareness Simulator",
+  "scenario_simulator": {
+    "scenarios": [
+      "Save ₹5,000 per month",
+      "Save ₹7,500 per month",
+      "Save ₹10,000 per month",
+      "Income falls by 20%",
+      "Expenses increase by 10%",
+      "Unexpected medical expense",
+      "Loss of income for 6 months",
+      "Increase monthly savings",
+      "Higher inflation"
+    ],
+    "comparison_factors": [
+      "Monthly cash-flow impact",
+      "Goal progress",
+      "Emergency-fund progress",
+      "Remaining discretionary money",
+      "Assumptions",
+      "Potential risks"
+    ],
+    "required_message": "This is an illustrative scenario based on assumptions. Actual outcomes may differ."
+  },
+  "fraud_detector": {
+    "warning_signs": [
+      "Guaranteed high returns",
+      "Risk-free investment claims",
+      "Pressure to act immediately",
+      "Requests for OTP",
+      "Requests for PIN or password",
+      "Unknown links",
+      "Fake customer-care numbers",
+      "Impersonation",
+      "Requests to transfer money to personal accounts",
+      "Double-your-money promises",
+      "Fake loan offers",
+      "Fake job offers",
+      "Social-media investment schemes"
+    ],
+    "risk_levels": {
+      "green": "Lower apparent warning signs",
+      "yellow": "Several warning signs",
+      "red": "Strong scam or manipulation warning signs"
+    },
+    "instruction": "Identify warning signs in a suspicious message and explain why they may be risky. Encourage users to independently verify information through official channels."
+  }
+}
